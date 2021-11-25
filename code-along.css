@@ -1,3 +1,33 @@
-nav {
-  display: none;
+.container{
+  display: flex;
+  justify-content: space-around;
+}
+
+aside{
+  min-width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+nav{
+  position: sticky;
+  top: 1em;
+}
+nav > ul {
+ list-style: none;
+}
+
+img {
+  max-width: 175px;
+  height: 125;
+}
+
+/* * {
+  border: 1px solid teal;
+} */
+
+section{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
